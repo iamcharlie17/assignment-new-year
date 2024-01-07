@@ -176,6 +176,10 @@
   border: none;
   margin-top: 50px;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.location-section button:hover{
+  opacity: 0.7;
 }
 
 /* best-offer section styles */
@@ -365,6 +369,10 @@
   border: none;
   padding: 25px 60px;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.subscribe-section button:hover{
+  opacity: 0.7;
 }
 
 #email {
