@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  margin: 50px 150px 0 150px;
+}
+
+.banner {
+  background-image: url('../resources/Banner\ Image.png');
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  background-size: cover;
+}
+
+.banner-text h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner-text h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding: 10px 350px;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
