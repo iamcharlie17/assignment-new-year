@@ -20,6 +20,7 @@
   border-radius: 16px;
   background-position: center;
   position: relative;
+  height: 65vh;
 }
 
 .banner h3 {
@@ -37,6 +38,8 @@
 }
 .banner-text {
   padding: 50px 300px 150px 300px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  border-radius: 16px;
 }
 
 /* discount section styles */
@@ -104,6 +107,14 @@
   line-height: 30px;
   padding: 0  100px 10px 100px;
 }
+.party-section .party-text{
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  border-radius: 16px;
+}
+.party-section img{
+  position: relative;
+  display: flex;
+}
 .party-section button {
   color: #fff;
   text-align: center;
@@ -114,8 +125,10 @@
   line-height: normal;
   text-transform: uppercase;
   background-color: black;
-  margin: 10px 0px 20px 120px;
+  margin: 10px 0px 80px 120px;
   cursor: pointer;
 }
+
+
 
 
