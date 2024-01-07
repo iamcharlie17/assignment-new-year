@@ -10,6 +10,7 @@
   margin: 0 auto;
 }
 
+/* header styles */
 .banner {
   background-image: url('../resources/Banner\ Image.png');
   background-size: cover;
@@ -34,6 +35,40 @@
   font-weight: 900;
   line-height: 95px;
 }
-.banner-text{
-  padding: 150px 300px 150px 300px;
+.banner-text {
+  padding: 50px 300px 150px 300px;
+}
+
+/* discount section styles */
+
+.discount {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.discount h1 {
+  color: #f00;
+  font-family: 'Inter', sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.discount h4 {
+  color: #f00;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.discount h2 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
 }
